@@ -61,6 +61,30 @@ c = 1
 c += 2
 print("Value of c: ", c)
 
+# Пріоритет операцій
+
+#   Дужки
+a = (1+2)*3
+print("Brackets first: ", a) # Brackets first:  9
+
+#   Степінь
+e = 3 * 2 ** 2
+print("Exponent second ", e) # Exponent second  12
+e = 3 ** 2 ** 2 # 81 з права на ліво
+print("Exponent right to left", e)
+
+#   Множення, ділення, цілочисельне ділення, залишок від ділення
+b = 10 / 2 * 3 // 6 % 3 # зліва направо
+print("Mult, division... ", b)
+
+#   + та -
+b = 2 - 1 + 3 # зліва направо
+print("Sum and substract ", b)
+
+
+
+
+
 
 
 
