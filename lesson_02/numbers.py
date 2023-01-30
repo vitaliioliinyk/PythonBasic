@@ -18,6 +18,8 @@ age = int(age)
 print("Type of variable", age, type(age))  # <class 'int'>
 age = float(age)
 print("Type of variable", age, type(age))  # <class 'int'>
+age = str(age)
+print("Type of variable", age, type(age))  # <class 'int'>
 
 
 # Числа в Python
