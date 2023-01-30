@@ -42,3 +42,13 @@ print("Count 'o': ", s.count('o'))
 
 s_lenght = len(s)
 print(f"Length of {s} is {s_lenght}")
+
+# Індекси та зрізи
+s = "Hello World!"
+print("First symbol -", s[0])
+print("Last symbol -", s[-1])
+print("First 2 symbols -", s[0:3])
+print("Entile string -", s[0:len(s)])
+print("Symbols with step 2 -", s[0:12:2])
+print("Symbols with step 3 -", s[0:12:3])
+print("String reverse -", s[::-1])
