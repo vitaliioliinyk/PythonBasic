@@ -39,3 +39,6 @@ s = "hello World!"
 print(s.upper(), s.lower(), s.capitalize())
 
 print("Count 'o': ", s.count('o'))
+
+s_lenght = len(s)
+print(f"Length of {s} is {s_lenght}")
